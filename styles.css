@@ -1,14 +1,15 @@
 body {
-    background: #dcbfbf;
+    background: url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9uZXl8ZW58MHx8MHx8fDA%3D') no-repeat center center/cover;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #333;
 }
 .container {
-    background: white;
+    background: #FFDAB9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -21,9 +22,10 @@ body {
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background: #fff5e1;
 }
 .expense-form button {
-    background: green;
+    background: #28a745;
     color: white;
     border: none;
     padding: 10px;
@@ -62,4 +64,14 @@ td button:hover {
 .total {
     margin-top: 15px;
     font-size: 1.2em;
+}
+@media (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+    
+    .expense-form input {
+        width: 100%;
+        margin: 5px 0;
+    }
 }
