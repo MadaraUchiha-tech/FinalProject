@@ -15,6 +15,7 @@ The **Personal Budget Tracker** is a web application designed to help users mana
 - HTML
 - CSS
 - JavaScript
+- 2 APIS: LOCAL STORAGE API, CURRENCY CONVERSION API
 
 ## How to Use
 1. Visit the application: [Personal Budget Tracker](https://madarauchiha-tech.github.io/FinalProject/)
